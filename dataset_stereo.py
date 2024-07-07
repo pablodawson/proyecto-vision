@@ -2,7 +2,6 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 import cv2
-from imread_from_url import imread_from_url
 import os
 import sys
 sys.path.append("CREStereo-Pytorch")
@@ -46,7 +45,7 @@ def inference(left, right, model, n_iter=20):
 
 if __name__ == '__main__':
 
-    dataset_path = "/media/pablo/Nuevo_vol/Recursos Computer Vision/Recursos Computer Vision/zed-sdk/positional tracking/positional tracking/python/dataset"
+    dataset_path = "dataset"
     images_left = os.listdir(os.path.join(dataset_path, "left"))
     output_path_vis = os.path.join(dataset_path, "crestereo_disp_vis")
     output_path_raw = os.path.join(dataset_path, "crestereo_disp_raw")
@@ -75,7 +74,7 @@ if __name__ == '__main__':
         imgL = cv2.resize(left_img, (eval_w, eval_h), interpolation=cv2.INTER_LINEAR)
         imgR = cv2.resize(right_img, (eval_w, eval_h), interpolation=cv2.INTER_LINEAR)        
 
-        pred = inference(imgL, imgR, model, n_iter=20)
+        pred = inference(imgL, imgR, model, n_iter=5)
 
         t = float(in_w) / float(eval_w)
         disp = cv2.resize(pred, (in_w, in_h), interpolation=cv2.INTER_LINEAR) * t

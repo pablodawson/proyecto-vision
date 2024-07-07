@@ -193,6 +193,11 @@ def main():
             depth_np = mat_depth_measure.get_data()
             depth_np = np.nan_to_num(depth_np)
 
+            img_np = cv2.resize(img_np, (1024, 576))
+            img_np_r = cv2.resize(img_np_r, (1024, 576))
+            depth_np_view = cv2.resize(depth_np_view, (1024, 576))
+            depth_np = cv2.resize(depth_np, (1024, 576))
+
             # Save images
             cv2.imwrite(f'dataset/left/{str(i).zfill(5)}.png', img_np)
             cv2.imwrite(f'dataset/right/{str(i).zfill(5)}.png', img_np_r)
