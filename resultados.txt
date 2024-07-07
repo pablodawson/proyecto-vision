@@ -1,0 +1,162 @@
+Average Tracking/Iteration Time: 24.104171658530454 ms
+Average Tracking/Frame Time: 4.814122575360376 s
+Average Mapping/Iteration Time: 29.309946889275903 ms
+Average Mapping/Frame Time: 0.879978433654115 s
+Evaluating Final Parameters ...
+100%|█████████████████████████████████████████| 592/592 [00:10<00:00, 57.50it/s]
+Final Average ATE RMSE: 3.31 cm
+Average PSNR: 21.96
+Average Depth RMSE: 2.90 cm
+Average Depth L1: 2.90 cm
+Average MS-SSIM: 0.853
+Average LPIPS: 0.240
+Saving parameters to: ./experiments/TUM/freiburg1_desk_seed0
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                     Final Stats/Average Depth L1 ▁
+wandb:                   Final Stats/Average Depth RMSE ▁
+wandb:                        Final Stats/Average LPIPS ▁
+wandb:                      Final Stats/Average MS-SSIM ▁
+wandb:       Final Stats/Average Mapping Frame Time (s) ▁
+wandb:  Final Stats/Average Mapping Iteration Time (ms) ▁
+wandb:                         Final Stats/Average PSNR ▁
+wandb:      Final Stats/Average Tracking Frame Time (s) ▁
+wandb: Final Stats/Average Tracking Iteration Time (ms) ▁
+wandb:                         Final Stats/Avg ATE RMSE ▁
+wandb:                                 Final Stats/step ▁▁▁
+wandb:                                 Mapping/Depth L1 ▁█
+wandb:                               Mapping/Depth RMSE ▁█
+wandb:                      Mapping/Number of Gaussians ▁▁▃▄▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█████████████
+wandb:            Mapping/Number of Gaussians - Pruning ▁▂▃▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█████████████
+wandb:                                     Mapping/PSNR ▁█
+wandb:                                     Mapping/step ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▁▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                 Per Iteration Mapping/Depth Loss ▁▂▂▁▂▂▂▁▃▂▂▁▂▂▄▁▂▂▃▂▂▂▃▃▂▂▅▂▃▂▃▂█▃▃▅▁▅▁▃
+wandb:                 Per Iteration Mapping/Image Loss ▁▅▄▃▄▄▃▃▄█▄▃▃▆▅▃▃▆▅▄▄▅▅▄▄▄▆▆▃▅▅▆▅▅▃▆▂▅▃▆
+wandb:                       Per Iteration Mapping/Loss ▁▃▃▂▃▃▂▂▄▅▃▂▂▄▄▂▂▄▄▃▃▃▄▃▂▃▆▃▃▃▄▄█▄▃▆▂▆▁▅
+wandb:                       Per Iteration Mapping/step ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                Per Iteration Tracking/Depth Loss ▂▂▂▂▃▂▂▁▂▃▄▆█▃▃▂▂▂▁▂▂▂▄▄▃▅▃▃▃▄▄▅▂▂▂▁▁▁▁▁
+wandb:                Per Iteration Tracking/Image Loss ▁▂▂▄▇▄▄▃▃█▆▆▅▃▃▃▄▃▃▅▅▄▄▃▆▄▅▂▂▄▃▄▂▁▃▂▃▂▂▁
+wandb:                      Per Iteration Tracking/Loss ▁▂▂▄▆▃▃▃▃▇▆██▃▄▃▄▂▂▄▄▃▅▄▆▅▅▃▂▅▄▅▂▂▃▂▂▂▁▁
+wandb:                      Per Iteration Tracking/step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                                Tracking/ATE RMSE ▁█
+wandb:                                Tracking/Depth L1 █▁
+wandb:                              Tracking/Depth RMSE █▁
+wandb:                       Tracking/Latest Pose Error ▁█
+wandb:              Tracking/Latest Relative Pose Error ▁█
+wandb:                                    Tracking/PSNR █▁
+wandb:                                    Tracking/step ▁█
+wandb: 
+wandb: Run summary:
+wandb:                     Final Stats/Average Depth L1 0.02895
+wandb:                   Final Stats/Average Depth RMSE 0.02895
+wandb:                        Final Stats/Average LPIPS 0.23967
+wandb:                      Final Stats/Average MS-SSIM 0.85289
+wandb:       Final Stats/Average Mapping Frame Time (s) 0.87998
+wandb:  Final Stats/Average Mapping Iteration Time (ms) 29.30995
+wandb:                         Final Stats/Average PSNR 21.95809
+wandb:      Final Stats/Average Tracking Frame Time (s) 4.81412
+wandb: Final Stats/Average Tracking Iteration Time (ms) 24.10417
+wandb:                         Final Stats/Avg ATE RMSE 0.0331
+wandb:                                 Final Stats/step 1
+wandb:                                 Mapping/Depth L1 0.01251
+wandb:                               Mapping/Depth RMSE 0.01251
+wandb:                      Mapping/Number of Gaussians 972836
+wandb:            Mapping/Number of Gaussians - Pruning 972129
+wandb:                                     Mapping/PSNR 26.91165
+wandb:                                     Mapping/step 17760
+wandb:                 Per Iteration Mapping/Depth Loss 0.02205
+wandb:                 Per Iteration Mapping/Image Loss 0.03478
+wandb:                       Per Iteration Mapping/Loss 0.05683
+wandb:                       Per Iteration Mapping/step 17759
+wandb:                Per Iteration Tracking/Depth Loss 846.96826
+wandb:                Per Iteration Tracking/Image Loss 9800.76953
+wandb:                      Per Iteration Tracking/Loss 10647.73828
+wandb:                      Per Iteration Tracking/step 118199
+wandb:                                Tracking/ATE RMSE 0.03517
+wandb:                                Tracking/Depth L1 0.01103
+wandb:                              Tracking/Depth RMSE 0.01103
+wandb:                       Tracking/Latest Pose Error 0.02901
+wandb:              Tracking/Latest Relative Pose Error 0.00452
+wandb:                                    Tracking/PSNR 24.69342
+wandb:                                    Tracking/step 499
+
+
+Final Average ATE RMSE: 289.94 cm
+Average PSNR: 13.55
+Average Depth RMSE: 8.82 cm
+Average Depth L1: 8.82 cm
+Average MS-SSIM: 0.645
+Average LPIPS: 0.399
+Saving parameters to: ./experiments/TUM/piscina_seed0
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                     Final Stats/Average Depth L1 ▁
+wandb:                   Final Stats/Average Depth RMSE ▁
+wandb:                        Final Stats/Average LPIPS ▁
+wandb:                      Final Stats/Average MS-SSIM ▁
+wandb:       Final Stats/Average Mapping Frame Time (s) ▁
+wandb:  Final Stats/Average Mapping Iteration Time (ms) ▁
+wandb:                         Final Stats/Average PSNR ▁
+wandb:      Final Stats/Average Tracking Frame Time (s) ▁
+wandb: Final Stats/Average Tracking Iteration Time (ms) ▁
+wandb:                         Final Stats/Avg ATE RMSE ▁
+wandb:                                 Final Stats/step ▁▁▁
+wandb:                                 Mapping/Depth L1 ▁
+wandb:                               Mapping/Depth RMSE ▁
+wandb:                      Mapping/Number of Gaussians ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇██
+wandb:            Mapping/Number of Gaussians - Pruning ▁▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇████
+wandb:                                     Mapping/PSNR ▁
+wandb:                                     Mapping/step ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▁▄▄▅▅▅▅▅▅▆▆▆▆▆▇▂▇▇▇▇███
+wandb:                 Per Iteration Mapping/Depth Loss ▄▄▃▃▃▃▃▄▄▄▃▃▃▃▃▃▃▂▂▃▄▄▂▃▃▂▁▃▂▂▂▄▄▃▂▃▂▂▂█
+wandb:                 Per Iteration Mapping/Image Loss ▄▄▅▃▃▄▂▅▄▄▃▄▄▄▃▂▂▂▂▅▄▄▁▂▂▂▁▂▂▂▁▆▄▄▃▄▂▁▁█
+wandb:                       Per Iteration Mapping/Loss ▄▄▄▃▃▄▃▄▄▄▃▄▄▄▃▂▂▂▂▄▄▄▂▃▃▂▁▂▂▂▁▅▄▄▃▃▂▂▂█
+wandb:                       Per Iteration Mapping/step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                Per Iteration Tracking/Depth Loss ▂▂█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                Per Iteration Tracking/Image Loss ▅▅█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                      Per Iteration Tracking/Loss ▄▄█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                      Per Iteration Tracking/step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                                Tracking/ATE RMSE ▁
+wandb:                                Tracking/Depth L1 ▁
+wandb:                              Tracking/Depth RMSE ▁
+wandb:                       Tracking/Latest Pose Error ▁
+wandb:              Tracking/Latest Relative Pose Error ▁
+wandb:                                    Tracking/PSNR ▁
+wandb:                                    Tracking/step ▁
+wandb: 
+wandb: Run summary:
+wandb:                     Final Stats/Average Depth L1 0.08823
+wandb:                   Final Stats/Average Depth RMSE 0.08823
+wandb:                        Final Stats/Average LPIPS 0.39926
+wandb:                      Final Stats/Average MS-SSIM 0.64492
+wandb:       Final Stats/Average Mapping Frame Time (s) 0.75746
+wandb:  Final Stats/Average Mapping Iteration Time (ms) 25.2315
+wandb:                         Final Stats/Average PSNR 13.55296
+wandb:      Final Stats/Average Tracking Frame Time (s) 2.66475
+wandb: Final Stats/Average Tracking Iteration Time (ms) 13.4524
+wandb:                         Final Stats/Avg ATE RMSE 2.89939
+wandb:                                 Final Stats/step 1
+wandb:                                 Mapping/Depth L1 0.09285
+wandb:                               Mapping/Depth RMSE 0.09285
+wandb:                      Mapping/Number of Gaussians 2891259
+wandb:            Mapping/Number of Gaussians - Pruning 2891259
+wandb:                                     Mapping/PSNR 9.3305
+wandb:                                     Mapping/step 630
+wandb:                 Per Iteration Mapping/Depth Loss 0.06026
+wandb:                 Per Iteration Mapping/Image Loss 0.1219
+wandb:                       Per Iteration Mapping/Loss 0.18216
+wandb:                       Per Iteration Mapping/step 629
+wandb:                Per Iteration Tracking/Depth Loss 0.0
+wandb:                Per Iteration Tracking/Image Loss 0.0
+wandb:                      Per Iteration Tracking/Loss 0.0
+wandb:                      Per Iteration Tracking/step 19799
+wandb:                                Tracking/ATE RMSE 0.0
+wandb:                                Tracking/Depth L1 0.00074
+wandb:                              Tracking/Depth RMSE 0.00074
+wandb:                       Tracking/Latest Pose Error 0.0
+wandb:              Tracking/Latest Relative Pose Error 0.0
+wandb:                                    Tracking/PSNR 29.6563
+wandb:                                    Tracking/step 0
+wandb: 
+
